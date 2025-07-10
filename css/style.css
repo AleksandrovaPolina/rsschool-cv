@@ -26,6 +26,8 @@ html {
 
   .header-container{
     background-color: #829985;
+    display: flex;
+    justify-content: end;
   }
 
   .container {
