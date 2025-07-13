@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="icon" href="./assets/img/favicon.ico" />
+</head>
+<body>
+    <header class = "header">
+        <div class="container header-container">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contact information</a></li>
+                  <li class="nav-item"><a href="#aboutMe" class="nav-link">About Me</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#codeExample" class="nav-link">Code example</a></li>
+                  <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+              </nav>
+        </div>
+    </header>
+    <main class = "main">
+        <div class="container main-container">
+            <section class="section" id="profile">
+                <img class="avatar" src="./assets/img/avatar.jpg" alt="avatar" />
+                <div>
+                    <h1 class="section-title main-title">Polina Aleksandrova</h1>
+                    <h3 class="section-title job-title">Junior frontend developer</h3>
+                </div>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contact information</h2>
+                <ul class="section-list">
+                    <li class="section-item contacts-item"><img class="icon" src="./assets/svg/location.svg" alt="location-icon">Location: Ljubljana, Slovenia</li>
+                    <li class="section-item contacts-item"><img class="icon" src="./assets/svg/phone.svg" alt="phone-icon">Phone: +386 069 709460</li>
+                    <li class="section-item contacts-item"><img class="icon" src="./assets/svg/email.svg" alt="email-icon">E-mail: polina086@mail.ru</li>
+                    <li class="section-item contacts-item"><img class="icon" src="./assets/svg/telegram.svg" alt="telegram-icon">Telegram: @Aleksandrova_Polina</li>
+                    <li class="section-item contacts-item"><img class="icon" src="./assets/svg/linkedin.svg" alt="linkedIn-icon"><a class="section-link" href="http://linkedin.com/in/polina-aleksandrova-frontend">LinkedIn</a></li>
+                </ul>
+            </section>
+            <section class="section" id="aboutMe">
+                <h2 class="section-title">About Me</h2>
+                <p>I specialize in creating interfaces and web projects using technologies such as JavaScript and React. Experience with Git version control system allows me to effectively participate in the development and support projects. I worked with the development team, according to the agile system.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="section-list">
+                    <li class="section-item">HTML</li>
+                    <li class="section-item">CSS (Bootstrap, SASS/SCSS, BEM)</li>
+                    <li class="section-item">JavaScript</li>
+                    <li class="section-item">React, Redux</li>
+                    <li class="section-item">Git, GitHub</li>
+                    <li class="section-item">TypeScript in progress</li>
+                </ul>
+            </section>
+            <section class="section" id="codeExample">
+                <h2 class="section-title">Code Example</h2>
+                <p>Implement a function that computes the difference between two lists. The function should remove all occurrences of elements from the first list (a) that are present in the second list (b). The order of elements in the first list should be preserved in the result.</p>
+                    <code>
+function arrayDiff(a, b) {
+    return a.filter(item => 
+        !b.includes(item))}
+                    </code>
+            </section>
+            <section class="section" id="experience">
+                <h2 class="section-title">Experience</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        <a class="section-link" href="https://github.com/AleksandrovaPolina/flashcards_for_learn_english">Flashcards for learn English:</a>
+                        <ul class="section-list">
+                            <li class="section-item">Developed website using React, Redux toolkit, JS, HTML, CSS, ensuring full responsiveness and accessibility</li>
+                            <li class="section-item">Implemented JSON API requests to fetch and update data</li>
+                            <li class="section-item">Collaborated closely with frontend team, following Agile methodologies and version control GitHub</li>
+                        </ul>
+                    </li>
+                    <li class="section-item">
+                        <a class="section-link" href="https://github.com/AleksandrovaPolina/Entertainment-web-app">Movie search website</a>
+                        <ul class="section-list">
+                            <li class="section-item">Developed responsive and cross-browser layout based on Figma designs</li>
+                            <li class="section-item">Implemented site functionality using JavaScript</li>
+                            <li class="section-item">Implemented JSON API requests to fetch and update data</li>
+                            <li class="section-item">Worked with Git version control system</li>
+                            <li class="section-item">Collaborated closely with frontend team, following Agile methodologies and version control GitHub</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <ul class="section-list">
+                    <li class="section-item">Saint Petersburg State Electrotechnical University “LETI” named after V.I. Ulyanov (Lenin), Saint Petersburg
+                        Faculty of Electronics, Master degree</li>
+                    <li class="section-item">Certificate of completion ITGirlSchool, Frontend – developer</li>
+                </ul>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="section-list">
+                    <li class="section-item">English - Pre-intermediate</li>
+                    <li class="section-item">Russian - native speaker</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class = "footer">
+        <div class="container footer-container">
+            <p>2025</p>
+            <a class="footer-link" href="https://github.com/AleksandrovaPolina">GitHub</a>
+            <a class="footer-link" href="https://rs.school/courses/javascript-ru"><img class="logo" src="./assets/svg/rs-school-logo.svg" alt="Logo RSSchool"></a>
+        </div>
+    </footer>
+</body>
+</html>
